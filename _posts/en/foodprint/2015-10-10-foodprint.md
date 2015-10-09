@@ -3,8 +3,9 @@ layout: page
 name: organic
 type: post
 title:  "Consortium"
-categories: foodprint
+categories:
 published: true
+permalink: /foodprint
 ---
 
 <div class="container-hero-10 container-hero-1 clearfix" style="background-image: url('/images/Sonnenaufgang.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%">
