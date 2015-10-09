@@ -5,9 +5,10 @@ type: post
 title:  "Consortium"
 categories: foodprint
 published: true
+permalink: /foodprint
 ---
 
-<div class="container-hero-10 container-hero-1 clearfix" style="background-image: url('/images/Sonnenaufgang.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%">
+<div class="container-hero-10 container-hero-1 clearfix" style="background-image: url('/images/Sonnenaufgang-3.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%">
 	<div class="container-hero-content container-hero-content-1 clearfix">
 		<div class="container-4 clearfix" style="margin-bottom:-40px;margin-top:30px;width: 960px;height: 46px;border-bottom: 1px solid rgb(0, 0, 0);">
 			<button class="text text-5" style="text-align:left" onClick="window.location='/de';" >FoodPrint Consortium</button>
@@ -65,6 +66,25 @@ published: true
 		<div class="col-md-2"></div>
 	</div>
 	
+	
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<p class="black-font">Join our projects:</p><br />
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-4 hover-zoom" style="background-image: url('/images/gruenGelb.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%;height:140px;"><br /><br />
+			<a href="/foodprint/organic"><div class="hero-title hero-title-1">Organic</div></a>
+		</div>
+		<div class="col-md-4 hover-zoom" style="background-image: url('/images/roooot.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%;height:140px;"><br /><br />
+			<a href="/foodprint/health"><div class="hero-title hero-title-1">Health</div></a>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
 	
 	
 </div>
@@ -127,6 +147,22 @@ img {
 
 .hero-title {
 	color: rgb(255, 255, 255);
+}
+
+.hover-zoom div {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.hover-zoom:hover div {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
 }
 
 
