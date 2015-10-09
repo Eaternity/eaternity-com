@@ -11,7 +11,7 @@ permalink: /foodprint
 <div class="container-hero-10 container-hero-1 clearfix" style="background-image: url('/images/Sonnenaufgang-3.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%">
 	<div class="container-hero-content container-hero-content-1 clearfix">
 		<div class="container-4 clearfix" style="margin-bottom:-40px;margin-top:30px;width: 960px;height: 46px;border-bottom: 1px solid rgb(0, 0, 0);">
-			<button class="text text-5" style="text-align:left" onClick="window.location='/de';" >FoodPrint Consortium</button>
+			<button class="text text-5" style="text-align:left" onClick="window.location='/foodprint';" >FoodPrint Consortium</button>
 				{% for menu in site.categories["foodprint"] %}
 				{% if menu.lang == page.lang %}
 				<button class="_button" style="float:right;margin-left:20px;margin-top:8px;font-size:0.95em" onClick="window.location='{{menu.url}}';">{{menu.title}}</button>
