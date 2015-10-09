@@ -28,9 +28,9 @@ published: true
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<p class="black-font">Be part of positive change.</p>
-			<p class="gray-font">Enable sustainable food choices.</p>
-			<p>Food is a priority issue. It is central to our lives, habits and culture. It impacts our health and that of our living environment. From a global perspective this impact is currently in many cases not beneficial. How we produce food and what we eat though can be a strong force driving positive change. We want to be part of this positive change.</p>
+			<br />
+			<p>We believe in the power of sharing data and knowledge. Our vision is to create a scientific knowledge hub on Food and its related impacts. We want to achieve this by providing appropriate ICT infrastructure for data storage, management and harmonization and setting-up a governance structure for regulating publication rights and data exchange. By sharing our findings and fostering exchange we can accelerate progress in research and jointly increase our impact. </p>
+			<br />
 		</div>
 		<div class="col-md-2"></div>
 	</div>
@@ -39,13 +39,6 @@ published: true
 
 <div class="gradient-box">
 <div class="container">
-	<div class="row">
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
-			<p>We believe in the power of sharing data and knowledge. Our vision is to create a scientific knowledge hub on Food and its related impacts. We want to achieve this by providing appropriate ICT infrastructure for data storage, management and harmonization and setting-up a governance structure for regulating publication rights and data exchange. By sharing our findings and fostering exchange we can accelerate progress in research and jointly increase our impact. </p>
-		</div>
-		<div class="col-md-2"></div>
-	</div>
 	
 	<div class="row">
 		<div class="col-md-2"></div>
