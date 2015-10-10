@@ -8,7 +8,7 @@ published: true
 permalink: /foodprint
 ---
 
-<div class="container-hero-10 container-hero-1 clearfix" style="background-image: url('/images/Sonnenaufgang-3.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%">
+<div class="container-hero-10 container-hero-1 clearfix" style="background-image: url('/images/Sonnenaufgang-3.jpg');background-size: 100%;background-position: left center;background-size: 100%">
 	<div class="container-hero-content container-hero-content-1 clearfix">
 		<div class="container-4 clearfix" style="margin-bottom:-40px;margin-top:30px;width: 960px;height: 46px;border-bottom: 1px solid rgb(0, 0, 0);">
 			<button class="text text-5" style="text-align:left" onClick="window.location='/foodprint';" >FoodPrint Consortium</button>
@@ -40,33 +40,33 @@ permalink: /foodprint
 
 <div class="gradient-box">
 <div class="container">
-	
+
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			
+
 			<p class="black-font">1. Scientific validation (a scientific knowledge hub).</p>
 			<p>
 			We think that scientific methodology is our best guide for decisions. The food system is complex and entangled with other sectors and aspects of life. It is hard for one person to oversee it all. Measurability and generating transparency are key to informed decisions.</p>
 			<p>
 			We believe in the power of sharing data and knowledge. Our vision is to build a scientific knowledge hub on Food and its related impacts. We provide an ICT infrastructure for data storage and management and a governance structure for regulating publication rights and data exchange. By sharing our findings and fostering exchange we can accelerate progress in research and increase our impact.</p>
-			
+
 			<p class="black-font">2. Easy and practicable tools.</p>
 			<p>
-			Knowledge can be useless if it is not accessible to and applicable for all. We extremely value use-friendly instruments and tools that support daily decisions. Our strategy is not to compromise with accuracy by reducing complexity. We want to empower people to deal with complexity. This is our motivation with all the tools that we develop. Let it be for scientists, restaurant managers, cooks or any individual that has a private interest.</p> 
-			
+			Knowledge can be useless if it is not accessible to and applicable for all. We extremely value use-friendly instruments and tools that support daily decisions. Our strategy is not to compromise with accuracy by reducing complexity. We want to empower people to deal with complexity. This is our motivation with all the tools that we develop. Let it be for scientists, restaurant managers, cooks or any individual that has a private interest.</p>
+
 			<p class="black-font">3. Have impact (as a community)</p>
 			<p>
 			The only true validation of our work lies in our actual impact. Creating comparability and transparency and measure progress is intrinsically connected to the way we work. In the end we will only have an impact through the work and efforts of others. We further try to choose strategically which groups to support first to maximize impact. We need everyone on board!</p>
-			
-			
-			
+
+
+
 			<br />
 		</div>
 		<div class="col-md-2"></div>
 	</div>
-	
-	
+
+
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
@@ -74,7 +74,7 @@ permalink: /foodprint
 		</div>
 		<div class="col-md-2"></div>
 	</div>
-	
+
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-4 hover-zoom" style="background-image: url('/images/gruenGelb.jpg');background-size: 500px 229px;background-position: left center;;background-size: 100%;height:140px;"><br /><br />
@@ -85,8 +85,8 @@ permalink: /foodprint
 		</div>
 		<div class="col-md-2"></div>
 	</div>
-	
-	
+
+
 </div>
 </div>
 
