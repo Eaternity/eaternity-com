@@ -7,9 +7,9 @@ t:
     about:
       name: "About"
       url: "/about/"
-    cloud:
-      name: "Eaternity Cloud"
-      url: "/cloud"
+    app:
+      name: "Eaternity App"
+      url: "/app"
   fr:
     home:
       name: "Accueil"

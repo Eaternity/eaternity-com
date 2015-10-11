@@ -34,7 +34,7 @@ categories:
 
 			<div class="container-20 clearfix">
 				<p class="text text-26">Compass Group (Switzerland) AG</p>
-		        <p>In partnership with Compass Group (Switzerland) AG we are rolling out the Eaternity Cloud to 200 Compass restaurants. Compass cooks can now see the difference it makes to switch from aubergine to courgette and how their restaurant’s climate footprint performs in comparison to others.</p>
+		        <p>In partnership with Compass Group (Switzerland) AG we are rolling out the Eaternity App to 200 Compass restaurants. Compass cooks can now see the difference it makes to switch from aubergine to courgette and how their restaurant’s climate footprint performs in comparison to others.</p>
 		        <a href="/p/compass-ch">Project page: "Ich esse die Welt gesund."</a>
 			</div>
 
@@ -81,7 +81,7 @@ categories:
 			<div class="container-29 clearfix">
 				<p class="text text-52">Restaurant Coalmine</p>
 		        <!-- <p>“We reduced 20% of our carbon emissions, keeping a tight budget and without our guests even noticing.” Natalie, restaurant owner</p> -->
-		        <p>Restaurant Coalmine is a small bistro in Winterthur. With limited resources and a regular customer base Colamine’s restaurant owner initially thought there was limited scope for researching and introducing sustainable food choices. But with Eaternity Cloud they recipes were analyzed quickly. By adjusting some ingredients and replacing two meals on the existing menu carbon emissions were immediately reduced by 20%. Climate-friendly meals are now highlighted on Coalmine’s menu card.</p>
+		        <p>Restaurant Coalmine is a small bistro in Winterthur. With limited resources and a regular customer base Colamine’s restaurant owner initially thought there was limited scope for researching and introducing sustainable food choices. But with Eaternity App they recipes were analyzed quickly. By adjusting some ingredients and replacing two meals on the existing menu carbon emissions were immediately reduced by 20%. Climate-friendly meals are now highlighted on Coalmine’s menu card.</p>
 				<a target="_blank" href="http://winterthurer-zeitung.ch/stadt/detail/article/mit-gutem-gewissen-essen-0013090/">Read more: www.winterthurer-zeitung.ch</a>
 			</div>
 		</div>

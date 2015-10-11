@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eaternity - App'etite for Change.">
+
+  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.grey-orange.min.css" />
+  <link rel="stylesheet" href="/assets/css/material.css" />
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+
+
+ <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+   <div class="android-header mdl-layout__header mdl-layout__header--scroll">
+
+   <!-- Hide on Desktop Start -->
+   <div class="mdl-layout__header-row mdl-cell--hide-desktop">
+
+         <button class="android-more-button mdl-button mdl-js-button mdl-button--icon" id="more-button">
+         </button>
+
+         <!-- Add spacer, to align navigation to the right in desktop -->
+         <div class="android-header-spacer mdl-layout-spacer"></div>
+
+         <!-- Eaternity App -->
+         <label onClick="window.location='/index.html';" class="mdl-button mdl-js-button mdl-button--icon little-higher">
+           <img src="/assets/images/ganz-weiss.svg" alt="The Eaternity App">
+         </label>
+
+         <!-- Add spacer, to align navigation to the right in desktop -->
+         <div class="android-header-spacer mdl-layout-spacer"></div>
+
+     <!-- Contact -->
+         <button onClick="window.location='/contact';" class="android-more-button mdl-button mdl-js-button mdl-button--icon" id="more-button"><i class="material-icons">email</i></button>
+
+
+   </div>
+   <!-- Hide Desktop End -->
+
+
+   <!-- Hide on Tablet&Phone Start -->
+       <div class="mdl-layout__header-row mdl-cell--hide-tablet mdl-cell--hide-phone">
+
+         <!-- Add spacer, to align navigation to the right in desktop -->
+         <div class="android-header-spacer mdl-layout-spacer"></div>
+
+
+     <!-- Eaternity App -->
+         <label onClick="window.location='/index.html';" class="mdl-button mdl-js-button mdl-button--icon little-higher">
+           <img src="/assets/images/ganz-weiss.svg" alt="The Eaternity App">
+         </label>
+
+     <!-- Search -->
+         <!-- <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+             <i class="material-icons">search</i>
+           </label>
+           <div class="mdl-textfield__expandable-holder">
+             <input class="mdl-textfield__input" type="text" id="search-field" />
+           </div>
+         </div> -->
+
+
+         <!-- Navigation -->
+         <div class="android-navigation-container">
+           <nav class="android-navigation mdl-navigation">
+             <a class="mdl-navigation__link" href="/app">Eaternity App</a>
+             <a class="mdl-navigation__link" href="/technology">Technology</a>
+             <a class="mdl-navigation__link" href="/planet">Our Planet</a>
+             <a class="mdl-navigation__link" href="/about">Eaternity's Goal</a>
+             <a class="mdl-navigation__link" href="/references">References</a>
+           </nav>
+         </div>
+
+     <!-- Contact -->
+         <button onClick="window.location='/contact';" class="android-more-button mdl-button mdl-js-button mdl-button--icon" id="more-button">
+           <i class="material-icons">email</i>
+         </button>
+
+         <!-- Add spacer, to align navigation to the right in desktop -->
+         <div class="android-header-spacer mdl-layout-spacer"></div>
+
+       </div>
+
+   <!-- Hide Tablet&Phone End -->
+  </div>
+
+  <div class="android-drawer mdl-layout__drawer" style="background-color: rgba(50, 50, 50, 0.95);">
+
+  	<!-- Eaternity App -->
+  	<img src="/assets/images/ganz-weiss.svg" alt="The Eaternity App" style="margin-top:20px;height:120px">
+
+  		 <nav class="mdl-navigation">
+  				 <a class="mdl-navigation__link" href="/app">Eaternity App</a>
+  				 <a class="mdl-navigation__link" href="/technology">Technology</a>
+  				 <a class="mdl-navigation__link" href="/planet">Our Planet</a>
+  				 <a class="mdl-navigation__link" href="/about">Eaternity's Goal</a>
+  				 <a class="mdl-navigation__link" href="/references">References</a>
+  		 </nav>
+
+
+  		 <!-- <nav class="mdl-navigation">
+  				 <h1>Our Planet</h1>
+  				 {% for menu in site.categories["planet"] %}
+  				 {% if menu.lang == page.lang %}
+  						<a class="mdl-navigation__link" href="{{menu.url}}">{{menu.title}}</a>
+  				 {% endif %}{% endfor %}
+  		 </nav> -->
+
+  </div>
+
+  <!-- <div class="white sub-header mdl-layout__header mdl-layout__header--scroll mdl-cell--hide-phone">
+  	<div class="mdl-layout__header-row">
+  		<h1 onClick="window.location='/planet';">Our Planet</h1>
+  		<div class="android-header-spacer mdl-layout-spacer gone"></div>
+  		<div class="">
+  			<nav class="mdl-navigation  mdl-cell--hide-tablet">
+  				{% for menu in site.categories["planet"] %}
+  				{% if menu.lang == page.lang %}
+  				<a class="mdl-navigation__link" href="{{menu.url}}">{{menu.title}}</a>
+  				{% endif %}{% endfor %}
+  			</nav>
+  		</div>
+  	</div>
+  </div> -->
+
+  <div class="android-content mdl-layout__content">
+
+  <!-- <div style="background-image: url('/images/2222523978_f48bf28571_o.jpg'); background-repeat: no-repeat; background-size: 1024px 1024px;background-position: 50% 0%;background-color: #000; height:600px; width:100%; margin-top:-120px; margin-bottom:-460px;"></div> -->
+
+		  <!-- {% include navigation.html %} -->
+<!--
+		  {% if page.profile %}
+		      {% include profile.html %}
+		  {% endif %} -->
+
+		  <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+		    {{ content }}
+		  </section>
+
+      </div>
+
+ </div>
+
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+  <script src="/assets/js/material.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

@@ -19,7 +19,7 @@ permalink: /foodprint
 		</div>
 		<br />
 		<img class="image image-1" src="/images/nur-logo-klein-480x299-3.png" data-rimage data-src="/images/nur-logo-klein-480x299-3.png" data-srcat2x="/images/nur-logo-klein-480x299-3@2x.png">
-		<img class="image image-2" src="/images/cloud-negativ-248x231-1.png" data-rimage data-src="/images/cloud-negativ-248x231-1.png" data-srcat2x="/images/cloud-negativ-248x231-1@2x.png">
+		<img class="image image-2" src="/images/app-negativ-248x231-1.png" data-rimage data-src="/images/app-negativ-248x231-1.png" data-srcat2x="/images/app-negativ-248x231-1@2x.png">
 		<div class="hero-title hero-title-1">FoodPrint Consortium</div>
 	</div>
 </div>

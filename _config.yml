@@ -1,22 +1,39 @@
 # Site settings - website www.eaternity.com
+name: Eaternity
 title: Eaternity - Appetite for Change
 email: email@eaternity.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: App'etite for Change.
+meta_description: "Eaternity is creating a movement to establish climate friendly meals."
+
+
+# Build settings
+markdown: kramdown #redcarpet
+# highlighter: pygments
+
+# paginate: 20
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://eaternity.com" # the base hostname & protocol for your site
+# baseurl: /
+domain_name: 'http://eaternity.org'
+google_analytics: 'UA-55310589-1' #'UA-55310589-3' <- old blog
+disqus: false
+disqus_shortname: 'eaternity'
+
+# Details for the RSS feed generator
+# url:            'http://www.eaternity.org'
+url: "http://www.eaternity.com" # the base hostname & protocol for your site
+author:         'Eaternity'
+authorTwitter:  'Eaternity'
 twitter_username: eaternity
 github_username:  eaternity-agent
 
-# Build settings
-markdown: kramdown
+
+aboutPage: false
 
 
 # config stuff
 # permalink: /:title/
 permalink: /:categories/:title
+# permalink: /:categories/:year/:title/
 
 defaults:
   -
@@ -43,3 +60,21 @@ defaults:
     values:
       layout: default
       lang: zh
+  -
+      scope:
+          path: "" # empty string for all files
+          type: pages
+      values:
+          layout: default
+  -
+      scope:
+          path: "" # empty string for all files
+          type: posts
+      values:
+          layout: post
+  -
+      scope:
+          path: ""
+          type: drafts
+      values:
+          layout: post

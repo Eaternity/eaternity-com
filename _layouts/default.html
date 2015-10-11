@@ -4,19 +4,30 @@
   {% include head.html %}
 
   <body class="body page-index clearfix">
-	  
+
+
     {% include header.html %}
 
 
- 	{{ content }}
-	
-    <!-- <div class="page-content">
-      <div class="wrapper">
-      
-      </div>
-    </div> -->
+
+
+
+    <!-- {% include navigation.html %} -->
+<!--
+    {% if page.profile %}
+        {% include profile.html %}
+    {% endif %} -->
+
+    <!-- <section id="wrapper" class="{% if page.profile %}home{% endif %}"> -->
+      {{ content }}
+    <!-- </section> -->
+
+
+
+
 
     {% include footer.html %}
+
 
   </body>
 

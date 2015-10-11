@@ -65,10 +65,10 @@
 
 		<div class="container-108 clearfix" style="width: 960px;margin-top:0px">
 			<div class=" container-125 clearfix">
-				<p class="text text-397">© {{ site.time | date: '%Y' }} Eaternity AG. All rights reserved. <!-- Terms of Use. --></p>
+				<p class="text text-397">© {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved. <!-- Terms of Use. --></p>
 			</div>
 			<div class=" container-143 clearfix">
-				<p class="text text-419"><!-- Eaternity Blog | Developers | FAQ |  --> <a href="http://eaternity.org/">Blog</a> | <a href="/contact">Contact Us</a> | Language:
+				<p class="text text-419"><!-- Eaternity Blog | Developers | FAQ |  --> <a href="/blog">Blog</a> | <a href="/contact">Contact Us</a> | Language:
 				{% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
 				{% for post in posts %}
 
@@ -90,7 +90,7 @@
 	ga('send', 'pageview');
 
 	</script>
-	
+
 	<script src="/js/jquery-min.js"></script>
 	<script src="/js/rimages.js"></script>
 	<script src="/js/bootstrap.js"></script>
