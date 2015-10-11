@@ -29,12 +29,20 @@ permalink: /foodprint
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<br />
-			<p>We believe in the power of sharing data and knowledge. Our vision is to create a scientific knowledge hub on Food and its related impacts. We want to achieve this by providing appropriate ICT infrastructure for data storage, management and harmonization and setting-up a governance structure for regulating publication rights and data exchange. By sharing our findings and fostering exchange we can accelerate progress in research and jointly increase our impact. </p>
-			<br />
-		</div>
-		<div class="col-md-2"></div>
-	</div>
+				<p class="black-font">Be part of positive change.</p>
+				<p class="gray-font">Enable sustainable food choices.</p>
+<p>Food is a priority issue. It is central to our lives, habits and culture. It impacts our health and that of our living environment. From a global perspective this impact is currently in many cases not beneficial. How we produce food and what we eat though can be a strong force driving positive change. We want to be part of this positive change.</p>
+
+			<p class="black-font">Foodprints - our guide to sustainable eating.</p>
+<p>Together with scientific partners and a broad range of stakeholders we further investigate this question. Challenges are the large amount of data needed, improving scientific methodology and generating consensus on what indicators are best representing health. By collaborating with experts and stakeholders we target for broad consensus and easy adaptability in restaurants.</p>
+
+<p>In our first two foodprint projects we systematically analyze the relationship between healthy food and climate impact and between climate and other environmental impacts of organically and conventionally produced foods. The aim is to develop indicators and instruments to optimize the health and environmental impact of meals. Results will be made publicly available.</p>
+
+<p>These projects are made possible by Engagement Migros development fund.</p>
+
+</div>
+<div class="col-md-2"></div>
+</div>
 </div>
 
 
@@ -44,7 +52,9 @@ permalink: /foodprint
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-
+						<p class="gray-font">Open source for researchers and experts.</p>
+						<p>We believe in the power of sharing data and knowledge. Our vision is to create a scientific knowledge hub on Food and its related impacts. We want to achieve this by providing appropriate ICT infrastructure for data storage, management and harmonization and setting-up a governance structure for regulating publication rights and data exchange. By sharing our findings and fostering exchange we can accelerate progress in research and jointly increase our impact. </p>
+						<!--
 			<p class="black-font">1. Scientific validation (a scientific knowledge hub).</p>
 			<p>
 			We think that scientific methodology is our best guide for decisions. The food system is complex and entangled with other sectors and aspects of life. It is hard for one person to oversee it all. Measurability and generating transparency are key to informed decisions.</p>
@@ -57,7 +67,7 @@ permalink: /foodprint
 
 			<p class="black-font">3. Have impact (as a community)</p>
 			<p>
-			The only true validation of our work lies in our actual impact. Creating comparability and transparency and measure progress is intrinsically connected to the way we work. In the end we will only have an impact through the work and efforts of others. We further try to choose strategically which groups to support first to maximize impact. We need everyone on board!</p>
+			The only true validation of our work lies in our actual impact. Creating comparability and transparency and measure progress is intrinsically connected to the way we work. In the end we will only have an impact through the work and efforts of others. We further try to choose strategically which groups to support first to maximize impact. We need everyone on board!</p> -->
 
 
 
